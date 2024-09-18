@@ -1,3 +1,2 @@
-# Projeto de um gerenciador de tarefas
-
+# Projetos com intuido de aprendizado e desenvolvimento na linguagem Python.
 
