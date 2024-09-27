@@ -45,9 +45,10 @@ def favoritar(agenda,posicao_contato):
         posicao = int(posicao_contato) - 1
         if agenda[posicao]["Favorito"]== True:
                 agenda[posicao]["Favorito"]= False
+                print(f"{nome_contato} desfavoritado!")
         else:
                  agenda[posicao]["Favorito"] = True
-        print(f"{nome_contato} favoritado!")
+                 print(f"{nome_contato} favoritado!")
        
         return
 
